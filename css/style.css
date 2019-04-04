@@ -8,6 +8,11 @@ header {
     width: 100%;
     margin-bottom: 30px;
 }
+footer {
+    height: 90px;
+    background: #444444;
+    width: 100%;
+}
 
 #logo {
     display: inline-block;
