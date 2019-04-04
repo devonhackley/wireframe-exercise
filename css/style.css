@@ -1,0 +1,31 @@
+body {
+    overflow-x: hidden;
+}
+main {
+    width: 100%;
+}
+header {
+    padding: 10px;
+    position: relative;
+    background: #444444;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#logo {
+    display: inline-block;
+    margin-left: 90px;
+    margin-right: 50px;
+    background: #000000;
+}
+
+nav {
+    display: inline-block;
+    font-size: 25px;
+}
+
+nav ul > li {
+    float: left;
+    color:#969696;
+    padding: 20px 0px 20px 50px;
+}
