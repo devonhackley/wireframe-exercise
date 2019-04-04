@@ -1,9 +1,6 @@
 body {
     overflow-x: hidden;
 }
-main {
-    width: 100%;
-}
 header {
     padding: 10px;
     position: relative;
@@ -14,7 +11,7 @@ header {
 
 #logo {
     display: inline-block;
-    margin-left: 90px;
+    margin-left: 210px;
     margin-right: 50px;
     background: #000000;
 }
@@ -28,4 +25,61 @@ nav ul > li {
     float: left;
     color:#969696;
     padding: 20px 0px 20px 50px;
+}
+
+#banner img {
+    margin-left: 220px;
+    margin-bottom: 30px;
+}
+#sub-banner-container, #bottom-container {
+    margin-left: 220px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+#bottom-container {
+    width: 100%;
+}
+
+.sub-banner{
+    display: inline;
+    margin-right: 30px;
+}
+#feature {
+    float:left;
+    margin-right: 30px;
+}
+
+.scroll-contatiner {
+    height: 400px;
+}
+
+.scroll-contatiner h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+#scroll {
+    width: 480px;
+    height: 270px;
+    margin-bottom: 30px;
+    overflow-y: auto;
+}
+
+#scroll p {
+    font-size: 16px;
+    word-spacing: 5px;
+    font-style: italic;
+}
+.scroll-contatiner button {
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+    background: #000000;
+}
+
+.scroll-contatiner button:hover {
+    background: #969696;
 }
